@@ -1,0 +1,91 @@
+@import "_variables";
+
+#home {
+  background-image: url("../images/black_paper.png");
+  .header {
+    background-image: url("../images/dark_wood.png");
+    margin-bottom: -10px;
+  }
+  h1, #logo {
+    height: 100%;
+    width: 100%;
+    font-size: $header-font-size;
+    box-shadow: 0 0 8px rgba(150, 150, 150, 1);
+    border: 8px groove rgba(107, 107, 107, 1);
+    border-radius: 2px;
+    text-align: center;
+    font-family:  $copy-font;
+    text-shadow: 2px 2px 3px rgba(0,0,0,.3);
+    padding-top: 10px;
+      a {
+        text-decoration: none;
+        display: block;
+    }
+      img {
+        max-height: 15vh;
+        max-width: 35vw;
+      }
+  }
+}
+
+.main-nav {
+  display: flex;
+  width: 100%;
+    button {
+      flex: 1 49%;
+      background: $brand-color;
+    }
+    .btn-nav a {
+      font-family: $copy-font;
+      font-size: 2vw;
+      text-decoration: none;
+      text-shadow: 1px 1px rgba(255, 255, 255, .5);
+      padding-top: .3em;
+      display: block;
+    }
+}
+
+.quote {
+  color: $text-color;
+  font-size: 2.2vw;
+  font-family: $copy-font;
+  text-align: center;
+  margin: 1em;
+}
+
+.background {
+  margin-top: 10px;
+  .bottle {
+    position: relative;
+    height: 75%;
+    width: 100%;
+    margin: 0 auto;
+  }
+}
+
+.footer{
+  color: $text-color;
+  h1 {
+    background: url("../images/dark_wood.png");
+    font-size: $header-font-size;
+  }
+}
+.footer-icons {
+  margin-bottom: 15px;
+  a {
+    margin-right: 20px;
+  }
+  .copy {
+    margin-top: 15px;
+  }
+  .social {
+    width: 5vh !important;
+    height: 5vh !important;
+    border: $global-border;
+    border-radius: 5px;
+    background: $brand-color;
+    &:hover {
+      background: white;
+    }
+  }
+}

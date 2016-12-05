@@ -1,0 +1,20 @@
+@import "_variables";
+
+.gallery {
+  h2 {
+    font-family: $copy-font;
+    color: $text-color;
+    text-align: center;
+    font-size: $header-font-size;
+  }
+  .flex-center {
+  display: flex;
+  justify-content: space-around;
+}
+.images {
+  max-width: 33vw;
+  max-height: 45vh;
+  padding: 10px;
+
+  }
+}

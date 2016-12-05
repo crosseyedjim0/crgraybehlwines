@@ -1,0 +1,335 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <title>C. R. Graybehl Wine Co.</title>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <link type="text/css" rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous"/>
+      <link href="https://fonts.googleapis.com/css?family=Special+Elite" rel="stylesheet">
+    <link href="styles/global.min.css" rel="stylesheet" type="text/css"/>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
+
+    <script src="js/scripts.js"></script>
+  </head>
+
+  <body id="home" class="container-fluid">
+    <header>
+      <div class="header">
+        <h1 id="logo"><a href="index.html"><img src="images/cr-script-logo.png" alt="c r graybehl logo"/>Wine Company</a></h1>
+      </div>
+    </header>
+
+    <nav class="main-nav">
+        <button class="btn-nav"><a href="index.html">Home</a></button>
+        <button class="btn-nav"><a href="wines.html">Wines</a></button>
+        <button class="btn-nav"><a href="the-story.html">The Story</a></button>
+        <button class="btn-nav"><a href="contact.html">Contact</a></button>
+        <button class="btn-nav"><a href="cellar-club.html">Cellar Club</a></button>
+        <button class="btn-nav"><a href="gallery.html">Gallery</a></button>
+    </nav>
+
+
+      <div class="container-fluid wines">
+        <p class="content">Each year we draw and design a new label that reflects the vintage and the comings and goings of our lives. And just to make things more complicated, we constrain ourselves within the parameters of using what we call “the little guy”, the faceless, nameless representation of anybody and everybody. He’s adorned every bottle we’ve ever made.  As every year is unique, every label has a story and is a reflection of both the winemaking vintage and our real lives. And as in any project, we spend much time and bandwidth trying to figure it out each spring as we prepare to put the new wines in bottle. I only hope that people can relate and see themselves in whatever our “little guy” is doing this year. Collect them all!</p>
+        <div class="col-lg-6 box">
+          <a data-toggle="modal" href="#tallModal-1" class="btn"><img class="img-responsive link" src="images/14-gb-mounts-label.jpg" alt="2014  grenache blanc mounts vineyards"/></a>
+          <div id="tallModal-1" class="modal modal-wide fade">
+            <div class="modal-dialog">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                  <h4 class="modal-title">2014 Grenache Blanc Mounts Family Vineyards</h4>
+                </div>
+                <div class="modal-body">
+                  <p><img class="img-responsive" src="images/14-gb-mounts-label.jpg" alt="2014  grenache blanc mounts vineyards"/><br><strong>Mounts Family Vineyard</strong><br>
+From the same meticulously farmed vineyard in the Dry Creek Valley as my Grenache Noir, comes this new wine for 2015.  The grapes come from a low spot in the vineyard where an old creek use to flow.  Leaving the soil stripped and rocky. In fact it's mostly gravel and rocks. Just the way I like it.  I think you can sense it in the wine.  It has a rocky minerality and smells like wet stone.  That is until you catch a whiff of the bright green apple and sweet pear.  It's like sitting under a apple tree, eating a pear when it just starts to rain.  This lighter style Grenache Blanc has a delicate acidity on the palette that is nothing like so many other California Grenache Blancs I find in the market place.  I'm really excited about this wine and I think if you try it. You will be too.<br><br>
+<strong>
+"The 2014 Grenache Blanc Mounts Family Vineyards shows nice floral notes, along with white citrus, lemon honey and quince.  This is medium-bodied and refreshing, with no evidence of oak.  The wine should be drunk in its exuberant, fresh, lively youth, so consume it over the next several years. "<br><br>
+
+-Robert Parker</strong></p>
+
+                </div>
+                <div class="modal-footer">
+                  <div class="pay">
+                    <!--  add to cart button  -->
+                    <form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post">
+                    <input type="hidden" name="cmd" value="_s-xclick">
+                    <input type="hidden" name="hosted_button_id" value="V8VS6Q47YG344">
+                    <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_cart_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
+                    <img class="pix" alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
+                    </form>
+                  </div>
+                  <div class="pay">
+                    <!--   view cart button   -->
+                    <form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post" >
+                    <input type="hidden" name="cmd" value="_s-xclick">
+                    <input type="hidden" name="encrypted" value="-----BEGIN PKCS7-----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-----END PKCS7-----
+                    ">
+                    <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_viewcart_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
+                    <img class="pix" alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
+                    </form>
+                    <!--  END  view cart button   -->
+                  </div>
+                  <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                </div>
+              </div><!-- /.modal-content -->
+            </div><!-- /.modal-dialog -->
+          </div><!-- /.modal -->
+        </div>
+
+        <div class="col-lg-6 box">
+          <a data-toggle="modal" href="#tallModal-2" class="btn"><img class="img-responsive link" src="images/14-gb-lake-label.jpg" alt="2014 grenache blanc lake county"/></a>
+          <div id="tallModal-2" class="modal modal-wide fade">
+            <div class="modal-dialog">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                  <h4 class="modal-title">2014 Grenache Blanc Madder Lake Vineyards</h4>
+                </div>
+                <div class="modal-body">
+                  <p><img class="img-responsive" src="images/14-gb-lake-label.jpg" alt="2014 grenache blanc lake county"/><br><strong>Madder Lake Vineyards</strong><br>
+
+The Madder Lake Vineyard is located directly north of Mount St. Helena in the northern reaches of the folded and craggy Mayacamas Range. Littered with truck-sized boulders, stone and cobble of all sizes, this is a seriously steep and rocky vineyard with exceptional drainage and north/northwestern exposures. The proximity of Clear Lake and the orientation of the vineyard allow for  plantings of a southern Rhone selection of Grenache Blanc. The fruit is loosely clustered with thick skins that collaborate to create wine with monumental structure and vivid acid. Vintage 2014 will be noted as one of the earliest vintages in over a decade, but it will also go down as one of the best. Challenged by drought, an earthquake, rain, hail and significant heat, you would think there would be a lot of obstacles to navigate, however the timing of the events paired with some planning allowed us to dodge these curve balls and land another fantastic vintage. Tannins are in check and berries are small, which is translating into great balance and concentration in the cellar. Yields and quality are above average across all varieties, and I am anticipating a lot of beautiful 2014 wines to come.</p>
+
+                </div>
+                <div class="modal-footer">
+                  <div class="pay">
+                    <!--    add  to cart button  -->
+                    <form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post">
+                    <input type="hidden" name="cmd" value="_s-xclick">
+                    <input type="hidden" name="hosted_button_id" value="4W22Y6ZDL4RXL">
+                    <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_cart_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
+                    <img class="pix" alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
+                    </form>
+                  </div>
+                  <div class="pay">
+                    <!--   view cart button   -->
+                    <form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post" >
+                    <input type="hidden" name="cmd" value="_s-xclick">
+                    <input type="hidden" name="encrypted" value="-----BEGIN PKCS7-----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-----END PKCS7-----
+                    ">
+                    <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_viewcart_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
+                    <img class="pix" alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
+                    </form>
+                    <!--  END  view cart button   -->
+                  </div>
+                  <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+
+                </div>
+              </div><!-- /.modal-content -->
+            </div><!-- /.modal-dialog -->
+          </div><!-- /.modal -->
+
+        </div>
+        <div class="col-lg-6 box">
+          <a data-toggle="modal" href="#tallModal-3" class="btn"><img class="img-responsive link" src="images/14-grenache-mathis-label.jpg" alt="2014 mathis vineyard grenache"/></a>
+          <div id="tallModal-3" class="modal modal-wide fade">
+            <div class="modal-dialog">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                  <h4 class="modal-title">2014 Grenache Mathis Vineyards</h4>
+                </div>
+                <div class="modal-body">
+                  <p><img class="img-responsive" src="images/14-grenache-mathis-label.jpg" alt="2014 mathis vineyard grenache"/><br><strong>Mathis Vineyards</strong><br>
+
+I was lucky enough to score a few tons off of this amazing little vineyard that Peter Mathis planted and tends. Seven acres on a rocky hillside above the Sonoma Mission Inn. Peter selected this amazing site with one thing in mind, Grenache, and he planted some of the best clones available. I am honored to produce wines from this gem of a vineyard. And this is a big boy! Big tannins, big nose of pie cherry and lavender. In my opinion, this wine screams Gigondas. If your looking for a rhone wine from Vaucluse made in California, step right up. And this fella is going to age just as well.<br><br>
+<strong>
+90 Points
+"The 2014 Grenache Noir  Mathis Vineyard, which apparently is from a Sonoma site, is another successful effort. This has a deep ruby/purple tint, a nice sweet kiss of kirsch liqueur, a medium to full body, beautiful purity and no evidence of oak. I like what this winery is doing across the board, and I think they have plenty of potential to go even further."<br><br>
+
+-Robert Parker</strong></p>
+
+                </div>
+                <div class="modal-footer">
+                  <div class="pay">
+                    <!--    add to cart butotn   -->
+                    <form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post">
+                    <input type="hidden" name="cmd" value="_s-xclick">
+                    <input type="hidden" name="hosted_button_id" value="ZN844F24GG2WQ">
+                    <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_cart_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
+                    <img class="pix" alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
+                    </form>
+                  </div>
+                  <div class="pay">
+                    <!--   view cart button   -->
+                    <form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post" >
+                    <input type="hidden" name="cmd" value="_s-xclick">
+                    <input type="hidden" name="encrypted" value="-----BEGIN PKCS7-----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-----END PKCS7-----
+                    ">
+                    <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_viewcart_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
+                    <img class="pix" alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
+                    </form>
+                    <!--  END  view cart button   -->
+                  </div>
+                  <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+
+                </div>
+              </div><!-- /.modal-content -->
+            </div><!-- /.modal-dialog -->
+          </div><!-- /.modal -->
+
+        </div>
+        <div class="col-lg-6 box">
+          <a data-toggle="modal" href="#tallModal-4" class="btn"><img class="img-responsive link" src="images/2014-grenache-mounts-label.jpg" alt="2014 mounts vineyard grenache"/></a>
+          <div id="tallModal-4" class="modal modal-wide fade">
+            <div class="modal-dialog">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                  <h4 class="modal-title">2014 Grenache Mounts Family Vineyards</h4>
+                </div>
+                <div class="modal-body">
+                  <p><img class="img-responsive" src="images/2014-grenache-mounts-label.jpg" alt="2014 mounts vineyard grenache"/><br><strong>Mounts Family Vineyard</strong><br>
+Round two! My second vintage off of this amazing site on the west side of the Dry Creek valley. The Mounts Family vineyard shines again. Candied strawberries, ripe blackberry, anise and leather make this wine smell oh so sweet. Bright acidity and firm tannins make this one of my favorites ever from this site.
+<br><br>
+<strong>
+90 Points
+"The 2014 Grenache Noir  Mounts Family Vineyards has a slightly deeper ruby color, and could easily pass for Pinot Noir, if not for the smell and taste. The wine hits the palate with a nice gush of strawberries and cherries, has surprising body and a rather fiery intensity. No oak is present, which is ideal since Grenache rarely marries well with new oak. The wine is medium to full-bodied and lusty. This should drink well for another 7-8 years."
+<br><br>
+-Robert parker</strong><br><br>2015 SF Chronicle Double Gold!
+</p>
+
+                </div>
+                <div class="modal-footer">
+                  <div class="pay">
+                    <!--   add to cart button  -->
+                    <form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post">
+                    <input type="hidden" name="cmd" value="_s-xclick">
+                    <input type="hidden" name="hosted_button_id" value="P9YNDBA4W7JPE">
+                    <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_cart_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
+                    <img class="pix" alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
+                    </form>
+                  </div>
+                  <div class="pay">
+                    <!--   view cart button   -->
+                    <form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post" >
+                    <input type="hidden" name="cmd" value="_s-xclick">
+                    <input type="hidden" name="encrypted" value="-----BEGIN PKCS7-----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-----END PKCS7-----
+                    ">
+                    <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_viewcart_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
+                    <img class="pix" alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
+                    </form>
+                    <!--  END  view cart button   -->
+                  </div>
+                  <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+
+                </div>
+              </div><!-- /.modal-content -->
+            </div><!-- /.modal-dialog -->
+          </div><!-- /.modal -->
+
+        </div>
+        <div class="col-lg-6 box">
+          <a data-toggle="modal" href="#tallModal-5" class="btn"><img class="img-responsive link" src="images/2013-grenache-label.jpg" alt="2013 dry creek grenache"/></a>
+          <div id="tallModal-5" class="modal modal-wide fade">
+            <div class="modal-dialog">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                  <h4 class="modal-title">2013 Grenache Dry Creek Valley</h4>
+                </div>
+                <div class="modal-body">
+                  <p><img class="img-responsive" src="images/2013-grenache-label.jpg" alt="2013 dry creek grenache"/><br>My inaugural vintage starts with this Grenache from the Dry Creek Valley vineyard owned and farmed by the Mounts family for the last 70 years. A combination of two French Entav clones: clone 513 and clone 362. Both clones originating from the Languedoc and Southern Rhone regions of France. These clones are ideal for creating a French-Rhone style wine from California fruit.
+<br><br>
+This wine, typical of Grenache, shows wonderful dark red fruit, black cherry, plum and a slight strawberry followed by a dusty, tobacco and anise scent on the nose. The firm, dry tannins show what a classic Dry Creek Valley Grenache is all about.
+
+I love it. I think you will too.
+<br><br>
+<strong>
+"The 2013 Grenache That First Step is a nice effort with plenty of kirsch liqueur, sandalwood and a touch of spice. It is pure, shows light tannin, a wonderful broad savory mouthfeel as well as elegance. One of the interesting things about Grenache is that it has a Pinot Noir-like transparency and delicacy, but carries a much bigger punch at least in terms of alcohol. This is a beauty, fully mature and not likely to get better, but delicious and best drunk over the next several years."
+<br><br>
+-Robert Parker</strong></p>
+
+                </div>
+
+                <div class="modal-footer">
+                  <div class="pay">
+                    <!--  PayPal Add to Cart Button   -->
+                    <form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post">
+                    <input type="hidden" name="cmd" value="_s-xclick">
+                    <input type="hidden" name="hosted_button_id" value="9LCMT85CGYBJA">
+                    <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_cart_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
+                    <img class="pix" alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
+                    </form>
+                    <!--  end  PayPal Add to Cart Button   -->
+                  </div>
+                  <div class="pay">
+                    <!--   view cart button   -->
+                    <form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post" >
+                    <input type="hidden" name="cmd" value="_s-xclick">
+                    <input type="hidden" name="encrypted" value="-----BEGIN PKCS7-----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-----END PKCS7-----
+                    ">
+                    <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_viewcart_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
+                    <img class="pix" alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
+                    </form>
+                    <!--  END  view cart button   -->
+                  </div>
+                  <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+
+                      </div>
+                      </div><!-- /.modal-content -->
+                    </div><!-- /.modal-dialog -->
+                  </div><!-- /.modal -->
+        </div>
+        <div class="col-lg-6 box">
+          <a data-toggle="modal" href="#tallModal-6" class="btn"><img class="img-responsive link" src="images/2015-rose-label.jpg" alt="2015 grenache rose"/></a>
+          <div id="tallModal-6" class="modal modal-wide fade">
+            <div class="modal-dialog">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                  <h4 class="modal-title">2015 Grenache Rose</h4>
+                </div>
+                <div class="modal-body">
+                  <p><img class="img-responsive" src="images/2015-rose-label.jpg" alt="2015 grenache rose"/><br><strong>Sonoma Valley</strong>
+<br><br>
+This wine was picked with intention to make a Ros&eacute; and its expression showcases this.  The true Grenache fruit comes through, with hints of strawberries and cream, and fresh summer watermelon.  The delicate notes of rose petals and mineral are balanced by juicy berry, to create a wine that is perfect for summer days on the patio. This Ros&eacute; is made from Grenache harvest from Peter Mathis’s Vineyard in Sonoma Valley (He also makes an outstanding Ros&eacute;). The Mathis Vineyard is 7.5 acres of glorious south facing slopes with low vigor volcanic soils – it’s heaven for red wine grapes. Peter found the finest clones available (super small berries with great color and a more tannic spine than the typical Grenache found in the U.S) that had just been imported to the country.  Rather than follow a recipe from 6000 miles away, he chose what he thought would make the best wines based on his direct experience in California. I’m lucky to share in some of the fruit of this vineyard, as he very rarely sells any and only through my love of all things Grenache did he part with such precious fruit.<br><br>Sold Out</p>
+
+
+                </div>
+                <div class="modal-footer">
+                  <div class="pay">
+                    <!--   view cart button   -->
+                    <form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post" >
+                    <input type="hidden" name="cmd" value="_s-xclick">
+                    <input type="hidden" name="encrypted" value="-----BEGIN PKCS7-----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-----END PKCS7-----
+                    ">
+                    <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_viewcart_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
+                    <img class="pix" alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
+                    </form>
+                    <!--  END  view cart button   -->
+                  </div>
+                  <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                </div>
+              </div><!-- /.modal-content -->
+            </div><!-- /.modal-dialog -->
+          </div><!-- /.modal -->
+
+        </div>
+      </div>
+
+
+
+
+    <footer class="footer">
+        <h1>Producers of Single Vineyard Grenaches</h1>
+          <div class="footer-icons">
+            <a href="https://www.facebook.com"><img class="social" src="images/icons/facebook.svg" alt="facebook icon"/></a>
+            <a href="https://www.instagram.com"><img class="social" src="images/icons/instagram-black.svg" alt="instagram icon"/></a>
+            <a href="https://www.linkedin.com"><img class="social" src="images/icons/linkedin-alt.svg" alt="linked-in icon"/></a>
+            <a href="https://www.twitter.com"><img class="social" src="images/icons/twitter.svg" alt="twitter icon"/></a>
+            <a href="https://www.pinterest.com"><img class="social" src="images/icons/pinterest.svg" alt="pinterest icon"/></a>
+            <a href="https://plus.google.com/"><img class="social" src="images/icons/google-plus.svg" alt="google plus icon"/></a>
+            <div class="copy">
+              <span>&copy; C R Graybehl Wine Co. All Rights Reserved</span>
+            </div>
+          </div>
+    </footer>
+  </body>
+
+
+</html>

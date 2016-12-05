@@ -1,0 +1,45 @@
+@import "_variables";
+
+.club {
+  font-size: $copy-font-size;
+  text-align: justify;
+  margin: 2vw;
+  * {
+    font-family: $copy-font;
+    color: $text-color;
+  }
+  h2, h3 {
+    text-align: center;
+    font-size: 4vw;
+    margin: 3vw;
+  }
+  a {
+    position: relative;
+    display: block;
+    margin: 0 auto;
+  }
+  .grenachista {
+
+    width: 25vw;
+    box-shadow: 0 0 8px rgba(150, 150, 150, 1);
+    border: 8px groove rgba(107, 107, 107, 1);
+    &:hover {
+      border: 8px groove rgba(29, 37, 150, 1);
+      box-shadow: 0 0 8px rgba(58, 69, 228, 1);
+    }
+  }
+}
+.modal.modal-wide .modal-dialog {
+  width: 75%;
+}
+.modal-wide .modal-title {
+  text-align: center;
+  font-size: 3vw;
+
+}
+.modal-wide .modal-body {
+  overflow-y: auto;
+  font-family: $copy-font;
+  color: $text-color;
+  font-size: 1.75vw;
+}

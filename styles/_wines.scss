@@ -1,0 +1,70 @@
+@import "_variables";
+
+.wines {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+
+
+.box {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  flex: 1 49%;
+  .link {
+    max-height: 45vh;
+    max-width: 35vw;
+    box-shadow: 0 0 8px rgba(150, 150, 150, 1);
+    border: 8px groove rgba(107, 107, 107, 1);
+    &:hover {
+      border: 8px groove rgba(29, 37, 150, 1);
+      box-shadow: 0 0 8px rgba(58, 69, 228, 1);
+    }
+  }
+
+}
+
+
+  .content {
+    text-align: justify;
+    margin: 3vw;
+    font-family: $copy-font;
+    color: $text-color;
+    font-size: $copy-font-size;
+  }
+}
+
+.col-lg-6.box {
+   padding: 15px;
+}
+.modal.modal-wide .modal-dialog {
+  width: 75%;
+}
+.modal-wide .modal-title {
+  text-align: center;
+  font-size: 3vw;
+}
+.modal-wide .modal-body {
+  overflow-y: auto;
+  font-family: $copy-font;
+  color: $text-color;
+  font-size: 1.75vw;
+  img {
+    position: relative;
+    margin: 0 auto;
+  }
+}
+
+.modal-footer .pay {
+  width: 80px;
+  float: left;
+  margin-right: 50px;
+  .btn {
+    float: right;
+  }
+
+}
+
+.pix {
+  display: none;
+}
