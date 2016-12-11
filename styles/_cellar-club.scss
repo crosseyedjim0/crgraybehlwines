@@ -14,6 +14,7 @@
     margin: 3vw;
   }
   a {
+
     position: relative;
     display: block;
     margin: 0 auto;
@@ -42,4 +43,13 @@
   font-family: $copy-font;
   color: $text-color;
   font-size: 1.75vw;
+
+}
+.modal-footer a {
+  box-shadow: 0 0 8px rgba(150, 150, 150, 1);
+  border: 8px groove rgba(107, 107, 107, 1);
+  &:hover {
+    border: 8px groove rgba(29, 37, 150, 1);
+    box-shadow: 0 0 8px rgba(58, 69, 228, 1);
+  }
 }
