@@ -65,3 +65,13 @@
 .pix {
   display: none;
 }
+
+@media screen and(max-width: 450px) {
+  .box {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    flex: 1 55%;
+    flex-wrap: wrap;
+  }
+}
