@@ -16,11 +16,11 @@
     display: inline-flex;
     align-items: center;
     justify-content: center;
-    flex: 1 50%;
+    flex: 1 49%;
     flex-wrap: wrap;
     .link {
-      max-height: 45vh;
-      max-width: 35vw;
+      max-height: 50vh;
+      max-width: 37.5vw;
       box-shadow: 0 0 8px rgba(150, 150, 150, 1);
       border: 8px groove rgba(107, 107, 107, 1);
       &:hover {
